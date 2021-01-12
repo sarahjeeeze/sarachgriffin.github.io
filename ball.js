@@ -161,7 +161,7 @@ EvilCircle.prototype.collisionDetect = function() {
       if (distance < this.size + balls[j].size) {
         balls[j].exists = false;
         count--;
-        para.textContent = 'Old School Website Coming soon...' + count;
+        para.textContent = count;
       }
     }
   }
