@@ -188,7 +188,7 @@ while(balls.length < 25) {
   );
   balls.push(ball);
   count++;
-  para.textContent = 'Old School Website Coming soon...' + count;
+  para.textContent = count;
 }
 
 // define loop that keeps drawing the scene constantly
